@@ -3,14 +3,14 @@ requires = ["maturin>=1.7,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "py-gpui"
+name = "pygpui"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "maturin>=1.7.4",
-    "py-gpui",
+    "pygpui",
 ]
 classifiers = [
     "Programming Language :: Rust",
@@ -23,4 +23,4 @@ dynamic = ["version"]
 features = ["pyo3/extension-module"]
 
 [tool.uv.sources]
-py-gpui = { workspace = true }
+pygpui = { workspace = true }
