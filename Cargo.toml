@@ -10,3 +10,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = "0.22.0"
+gpui = { git = "https://github.com/zed-industries/zed" }
