@@ -22,5 +22,10 @@ dynamic = ["version"]
 [tool.maturin]
 features = ["pyo3/extension-module"]
 
+[tool.uv]
+dev-dependencies = [
+    "pip>=24.2",
+]
+
 [tool.uv.sources]
 pygpui = { workspace = true }
